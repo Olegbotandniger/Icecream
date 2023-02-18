@@ -63,9 +63,10 @@ body {
 }
 
 .logo {
+    margin-left: 245px;
     margin-top: 0;
-    width: 100px;
-    height: 100px;
+    width: 79px;
+    height: 79px;
 }
 
 .logo__img {
@@ -82,6 +83,7 @@ body {
 
 .nav__item {
     margin-right: 28px;
+
 }
 
 .nav__item:last-child {
@@ -93,8 +95,7 @@ body {
     line-height: 1.14;
     font-weight: 400;
     margin-right: 28px;
-    color: rgba(255, 255, 255, 0.7);
-
+    color: rgba(21, 1, 1, 0.7);
 }
 
 .btn {
@@ -103,7 +104,7 @@ body {
     border: none;
     padding: 15px 36px 15px 36px;
     border-radius: 5px;
-    background-color: #F6762C;
+    background-color: #D23166;
 }
 
 .gg {
@@ -117,34 +118,42 @@ body {
 
 .content__main {}
 
+
 .content__headline {
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.1em;
     margin-bottom: 15px;
-    color: #312F30;
-    margin-left: 0;
+    color: #0F0101;
+    margin-left: 245px;
 }
 
 .tytle {
+    font-family: 'Fredoka One', cursive;
     Font-size: 57.33px;
     font-weight: 500;
     line-height: 1.18;
     margin-bottom: 37px;
     color: #312F30;
-    margin-left: 0;
+    margin-left: 245px;
+    font-size: 57.33px;
+    line-height: 69px;
+    line-height: 121%;
 }
 
 .content__desc {
-    margin-top: ;
     margin-bottom: 42px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.7;
-    color: #312F30;
+    color: rgba(15, 1, 1, 0.7);
+    margin-left: 245px;
+    font-family: 'Hind Madurai', sans-serif;
 }
-
+.but{
+    margin-left: 245px;
+}
 
 .food {
     padding: 115px 0px 102px;
@@ -156,34 +165,37 @@ body {
 }
 
 .food__item {
-    width: 23%;
+    width: 250px;
+    justify-content: space-between;
 }
 
 .dish {
     overflow: hidden;
     border-radius: 10px;
+    background:rgba(0, 0, 0, 0.03) ; 
 
 }
 
 .dish__img-wrap {
-    width: 100%;
-    height: 175px;
-    overflow: hidden;
+    width: 54px;
+    height: 54px;
 }
 
 .dish__img {
-    height: 100%;
+    margin: 33px 100px 123px;
+    height:100%;
     width: 100%;
     object-fit: cover;
+    text-align: center;
 }
 
 .dish__desc {
-    padding: 28px 35px 30px;
+    padding: 33px 26px 27px;
     text-align: center;
 }
 
 .dish__tytle {
-    font-weight: 500;
+    margin-top: 0;
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 13px;
@@ -197,44 +209,60 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-    color: rgba(255, 255, 255, 0.7);
+    color:  rgba(0, 0, 0, 0.6);
+    font-family: 'Hind Madurai', sans-serif;
+
 }
 
 .order {
-    background: #312F30;
+    background: #F8EDF0;
     padding: 73px 0px;
+height: 50vh;
+
 }
 
 .order__container {
     display: flex;
     align-items: center;
+
 }
 
 .order__imd-wrap {
-    height: 456px;
-    display: flex;
-    align-items: center;
+    width: 465px;
+    height: 421px;
+
 }
 
 .order__colomn {
-    width: 50%;
+    width: 1100px;
+    height: 657px;
 }
 
-.order__img {}
+.order__img {
+    margin-bottom: 50px;
+    margin-left: 130px;
+    width: 500px;
+    height: 440px;
+}
 
-.order__desc {}
+.order__desc {
 
-.call-to-action {}
+
+}
+
+    .call-to-action {}
 
 .order__call-to-action {
-    max-width: 371px;
-    padding-left: 18.6%;
+max-width: 100%;
+
+    
 }
 
 .call-to-action__tytle {
     font-weight: 500;
     font-size: 44px;
     line-height: 1.18;
+
 }
 
 .order__call-to-action-tytle {
@@ -244,9 +272,9 @@ body {
 
 .call-to-action__text {
     margin-bottom: 13px;
-}
 
-.paragraph {}
+
+}
 
 .price {
     font-size: 16px;
@@ -266,4 +294,20 @@ body {
 .price__old {
     text-decoration: line-through;
     color: rgba(246, 118, 44, 0.7);
+}
+.izgoy1{
+    width: 51px;
+    height: 44px;
+}
+.izgoy{
+    width: 32px;
+    height: 43px;
+}
+.giv{
+    height: 320px;
+    width: 100%;
+    display: flex;
+}
+.container__text{
+    max-width: 442px;
 }
