@@ -116,7 +116,7 @@ body {
     max-width: 49%;
 }
 
-.content__main {}
+
 
 
 .content__headline {
@@ -245,12 +245,6 @@ height: 50vh;
     height: 440px;
 }
 
-.order__desc {
-
-
-}
-
-    .call-to-action {}
 
 .order__call-to-action {
 max-width: 100%;
@@ -287,13 +281,9 @@ max-width: 100%;
     font-size: 20px;
 }
 
-.price__new {
-    color: rgba(246, 118, 44, 1);
-}
-
 .price__old {
     text-decoration: line-through;
-    color: rgba(246, 118, 44, 0.7);
+color: rgba(0, 0, 0, 0.7);
 }
 .izgoy1{
     width: 51px;
@@ -310,4 +300,34 @@ max-width: 100%;
 }
 .container__text{
     max-width: 442px;
+}
+.product {  padding: 150px 0px 146px;
+}
+
+.tytle__product{
+    margin-bottom: 64px;
+    text-align: center;
+}
+.header__product__list{
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.card {
+    display: flex;
+}
+.card:nth-child(even){
+    flex-direction: row-reverse;
+}
+.offer__img {width: 36%;
+}
+.con{
+    width: 27%;
+}
+.offer{
+    color: rgba(0, 0, 0, 0.7);
+}
+.iskl{
+    color: #D23166;
 }
